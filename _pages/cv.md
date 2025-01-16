@@ -26,7 +26,7 @@ Work experience
 * June 2020 to October 2020: Internship at [Lucida Medical](https://lucidamedical.com/) (UK)
   * Used convolutional neural networks (CNNs) to identify and detect prostate cancer from magnetic resonance imaging (MRI) data 
 * January 2019 to April 2019: Internship at [meteoblue](https://www.meteoblue.com/en/weather/week/switzerland_switzerland_2658434) (Switzerland)
-  * Statistical analyse the accuracy of climate forecasting models
+  * Statistically analysed the accuracy of climate forecasting models
   
 Skills
 ======
