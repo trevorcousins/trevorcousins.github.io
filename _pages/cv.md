@@ -13,7 +13,7 @@ Education
 ======
 * PhD in Mathematical Genomics and Medicine, Cambridge University, 2025
   * Supervised by [Richard Durbin](https://www.gen.cam.ac.uk/research-groups/research-groups/durbin) and [Aylwyn Scally](https://www.gen.cam.ac.uk/research-groups/research-groups/scally)
-  * Main contribution includes developing a novel machine learning algorithm, [_cobraa_]([http://example.com](https://www.biorxiv.org/content/10.1101/2024.03.24.586479v1)), to learn about ancient admixture in human evolution  
+  * Main contribution includes developing a novel machine learning algorithm, [_cobraa_](https://www.biorxiv.org/content/10.1101/2024.03.24.586479v1), to learn about ancient admixture in human evolution  
 * MRes. in Mathematical Genomics and Medicine, Cambridge University, 2020
 * Bsc. in Mathematics, Exeter University, 2018
 
