@@ -27,6 +27,6 @@ Skills
 * Programming
   * Python
      * numpy/pandas/TensorFlow/numba/JAX/snakemake
-  * R/bash/C++/
+  * R/bash/C++
 * Machine learning
 * Reproducible data analysis
