@@ -9,28 +9,12 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<ul>
+<li> <b></b>Cousins, T.</b>, Scally, A. and Durbin, R., 2024. A structured coalescent model reveals deep ancestral structure shared by all modern humans. bioRxiv, pp.2024-03.</li>
+<li> <b>Cousins, T.</b>, Tabin, D., Patterson, N., Reich, D. and Durvasula, A., 2024. Accurate inference of population history in the presence of background selection. bioRxiv, pp.2024-01.</li>
+<li> <b>Cousins, T.</b>, Schweiger, R., and Durbin, R., 2024. Deep coalescent history of the hominin lineage. bioRxiv, pp.2024-10</li>
+<li> <b>Cousins, T.</b>, Durvasula, A., 2024. Insufficient evidence for a severe bottleneck in humans during the Early to Middle Pleistocene transition. bioRxiv, pp.2024-10</li>
+<li>Hilgers, L., Liu, S., Jensen, A., Brown, T., <b>Cousins, T.</b>, Schweiger, R., Guschanski, K. and Hiller, M., 2024. Avoidable false PSMC population size peaks occur across numerous studies. bioRxiv, pp.2024-06.</li>
+<li>Bortoluzzi, C., Wright, C.J., Lee, S., <b>Cousins, T.</b>, Genez, T.A., Thybert, D., Martin, F.J., Haggerty, L., Darwin Tree of Life Project Consortium, Blaxter, M. and Durbin, R., 2023. Lepidoptera genomics based on 88 chromosomal reference sequences informs population genetic parameters for conservation. bioRxiv</li> 
+<li>Alugnoa, D.N., <b>Cousins, T.</b> and Sato, M., 2022. Period poverty and menstrual belonging: a matter of climate justice. The Lancet Planetary Health, 6(7), pp.e551-e552.</li>
+</ul>
